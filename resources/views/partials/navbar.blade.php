@@ -134,7 +134,7 @@
 
       --text-primary: #f0fdf4;
       --text-secondary: #a7c4b0;
-      --text-muted: #5a7a65;
+      --text-muted: #7a9a85;
 
       --font-display: 'Instrument Sans', sans-serif;
       --font-body: 'Poppins', sans-serif;
@@ -363,22 +363,8 @@
       gap: 12px;
     }
 
-    .navbar-toggle {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      cursor: pointer;
-      padding: 4px;
-    }
-
-    .navbar-toggle span {
-      display: block;
-      width: 24px;
-      height: 2px;
-      background: var(--text-primary);
-      border-radius: 2px;
-      transition: var(--transition);
-    }
+    .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; background: none; border: none; outline: none; }
+.nav-toggle span { display: block; width: 24px; height: 2px; background: var(--text-primary); border-radius: 2px; transition: var(--transition); }
 
     .mobile-menu {
       display: none;
@@ -1753,7 +1739,7 @@
         display: none;
       }
 
-      .navbar-toggle {
+      .nav-toggle {
         display: flex;
       }
     }
@@ -1962,9 +1948,9 @@
     </a>
   </div>
 </div>
-      <div class="navbar-toggle" id="navToggle" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileMenu" type="button">
+    <span></span><span></span><span></span>
+</button>
     </div>
   </nav>
 
@@ -2008,10 +1994,12 @@
 
     // ----- Mobile menu -----
     const toggle = document.getElementById('navToggle');
-    const menu = document.getElementById('mobileMenu');
-    toggle.addEventListener('click', () => {
-      menu.classList.toggle('open');
-    });
+const menu = document.getElementById('mobileMenu');
+toggle.addEventListener('click', () => {
+    const isOpen = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen);
+});
+
     document.querySelectorAll('.mobile-link, .mobile-menu .btn').forEach(el => {
       el.addEventListener('click', () => menu.classList.remove('open'));
     });
