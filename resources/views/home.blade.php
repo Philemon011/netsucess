@@ -2,7 +2,27 @@
 
 @section('meta_title', 'Netsucess — Votre marque e-commerce sur mesure conçue en une semaine')
 @section('meta_description', 'Netsucess conçoit des boutiques e-commerce premium en une semaine. Design sur mesure, accompagnement 90 jours, résultats garantis.')
+@section('og_type', 'website')
 
+@section('json_ld')
+@verbatim
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Netsucess",
+    "url": "https://netsucess.com",
+    "logo": "https://netsucess.com/images/og-default.jpg",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+2290197773145",
+        "contactType": "customer service",
+        "availableLanguage": "French"
+    }
+}
+</script>
+@endverbatim
+@endsection
 @section('styles')
 <style>
      /* ============================================

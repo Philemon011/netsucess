@@ -4,17 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    {{-- Primary Meta Tags --}}
     <title>@yield('meta_title', 'Netsucess — Votre marque e-commerce sur mesure conçue en une semaine')</title>
-    <meta name="description" content="@yield('meta_description', 'Netsucess conçoit des boutiques e-commerce premium en une semaine.')">
+    <meta name="title" content="@yield('meta_title', 'Netsucess — Votre marque e-commerce sur mesure conçue en une semaine')">
+    <meta name="description" content="@yield('meta_description', 'Netsucess conçoit des boutiques e-commerce premium en une semaine. Design sur mesure, accompagnement 90 jours, résultats garantis.')">
     <meta name="robots" content="index, follow">
+    <meta name="author" content="Netsucess">
     <link rel="canonical" href="{{ url()->current() }}">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
     {{-- Open Graph --}}
+    <meta property="og:type" content="@yield('og_type', 'website')">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:site_name" content="Netsucess">
     <meta property="og:title" content="@yield('meta_title', 'Netsucess')">
     <meta property="og:description" content="@yield('meta_description', '')">
-    <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:type" content="@yield('og_type', 'website')">
-    <meta property="og:site_name" content="Netsucess">
+    <meta property="og:image" content="@yield('og_image', asset('images/og-default.jpg'))">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="fr_FR">
+
+    {{-- Twitter Card --}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('meta_title', 'Netsucess')">
+    <meta name="twitter:description" content="@yield('meta_description', '')">
+    <meta name="twitter:image" content="@yield('og_image', asset('images/og-default.jpg'))">
+
+    {{-- JSON-LD --}}
+@yield('json_ld')
 
     {{-- Fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,7 +39,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
     @yield('styles')
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 </head>
 <body>
 
