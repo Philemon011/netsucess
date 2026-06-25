@@ -134,33 +134,14 @@
 
 
 @section('json_ld')
+@verbatim
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": "{{ $post->title }}",
-    "description": "{{ $post->meta_description ?? $post->excerpt ?? '' }}",
-    "datePublished": "{{ $post->published_at->toIso8601String() }}",
-    "dateModified": "{{ $post->updated_at->toIso8601String() }}",
-    "image": "{{ $post->featured_image ? Storage::url($post->featured_image) : asset('images/og-default.jpg') }}",
-    "author": {
-        "@type": "Organization",
-        "name": "Netsucess"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Netsucess",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://netsucess.com/images/og-default.jpg"
-        }
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "{{ url()->current() }}"
-    }
+    "headline": "TITRE",
+    "author": {"@type": "Organization", "name": "Netsucess"}
 }
 </script>
-@endsection
-
+@endverbatim
 @endsection
