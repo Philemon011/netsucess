@@ -25,24 +25,24 @@
       @php
         $realisations = [
           [
-            'nom' => 'Ludossori',
-            'niche' => 'Jouets éducatifs',
-            'desc' => "Marque spécialisée dans les jouets éducatifs Montessori pour enfants, conçus pour améliorer leur concentration.",
-            'image' => 'https://images.unsplash.com/photo-1560421683-6856ea585c78?w=800&h=1200&fit=crop&q=80',
-            'url' => 'https://exemple-ludossori.myshopify.com',
+            'nom' => 'zulu-amk',
+            'niche' => 'Vêtements',
+            'desc' => "Marque spécialisée dans les vêtements haut de gamme, alliant savoir-faire artisanal, matières naturelles, confort exceptionnel et qualité premium à des prix accessibles.",
+            'image' => asset('images/avis/real3.png'),
+            'url' => 'https://zulu-amk.com/',
           ],
           [
-            'nom' => 'Dimax',
-            'niche' => 'Maillots de sport',
-            'desc' => "Marque spécialisée dans les maillots de football, qu'ils soient récents ou collectors.",
-            'image' => 'https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=800&h=1200&fit=crop&q=80',
+            'nom' => 'Alous',
+            'niche' => 'Cosmetiques',
+            'desc' => "Marque spécialisée dans les cosmétiques, proposant des produits de beauté de qualité conçus pour sublimer et prendre soin de la peau au quotidien.",
+            'image' => asset('images/avis/real1.png'),
             'url' => null,
           ],
           [
-            'nom' => 'Oriwa',
+            'nom' => 'MelaGlow',
             'niche' => 'Cosmétique naturelle',
             'desc' => "Marque spécialisée dans la cosmétique naturelle — des produits pour améliorer son apparence au quotidien.",
-            'image' => 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&h=1200&fit=crop&q=80',
+            'image' => asset('images/avis/real2.png'),
             'url' => null,
           ],
         ];

@@ -96,10 +96,14 @@
         @php
           $avis = [
             ['nom' => 'Wail', 'photo' => 'wail.jpg', 'texte' => "Plus de 20 000€ en 9 mois, en partant de zéro. Une vraie transformation."],
-            ['nom' => 'Arthur', 'photo' => 'arthur.jpg', 'texte' => "Super sincère, ne vend pas de rêve. Il sait exactement ce qu'il fait."],
+            ['nom' => 'Arthur', 'photo' => 'arthur.jpg', 'texte' => "Très satisfait du travail de Net_Succes ! Le site est moderne, clair et bien pensé. Ils ont été à l’écoute de mes besoins et réactifs à chaque demande. Travail sérieux, créatif et professionnel. Je recommande vivement Net_Succes à toute personne qui souhaite un site de qualité"],
             ['nom' => 'Léa', 'photo' => 'lea.jpg', 'texte' => "Le site est magnifique et facile à utiliser. Premières ventes en une semaine."],
+            ['nom' => 'Ketfreeman', 'photo' => 'Ketfreeman.jpg', 'texte' => "Excellent travail, toujours à l’écoute et toujours présent lorsqu’on a besoin. Pour ma première boutique, c’était un bon choix."],
             ['nom' => 'Maxime', 'photo' => 'adama.jpg', 'texte' => "J'étais bloqué avec mon ancien site. Là, des ventes dès les premiers jours."],
+            ['nom' => 'Sylvain', 'photo' => 'Sylvain.jpg', 'texte' => "Je suis satisfait de ma première expérience avec Net_succes. Ils ont pris le temps de comprendre mes besoins. Équipe professionnelle et réactive. Je n'hésiterai pas à repasser commande."],
             ['nom' => 'Kenza', 'photo' => 'julie.jpg', 'texte' => "Mon site est pro, facile à utiliser et mes clients l'adorent."],
+            ['nom' => 'AmeliaMartinsBarbo', 'photo' => 'AmeliaMartinsBarbo.jpg', 'texte' => "Une expérience parfaite. Un professionnel disponible, à l'écoute, arrangeant et rapide. C'était vraiment une expérience au top car il était disponible avant la commande: se mettre d'accord sur la commande, ce qui est le plus adapté (outre aspect financier), des appels récurrents selon mes disponibilités pour se tenir au courant. Et après commande: si il y a un problème envie d'une petite modification etc etc. Très poli, coustois et bienveillant. Je recommande fortement. Merci à vous pour cette belle rencontre !"],
+            ['nom' => 'TBBC', 'photo' => 'T.webp', 'texte' => "Un rapport qualité-prix irréprochable ! Il a su écouter et comprendre le projet que je lui avais confié. Il n’a pas hésité à donner de son temps et à partager ses connaissances pour peaufiner le travail jusqu’à la dernière seconde. Je suis pleinement satisfait de son professionnalisme et de la qualité de son travail. Je recommande vivement !"],
           ];
           $avisDouble = array_merge($avis, $avis);
         @endphp

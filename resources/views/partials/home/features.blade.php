@@ -124,7 +124,7 @@
         {{-- Badge flottant --}}
         <div class="absolute -left-4 bottom-8 hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] px-4 py-3 shadow-[0_16px_40px_-15px_rgba(0,0,0,0.2)] sm:block" style="animation: float-soft 6s ease-in-out infinite;">
           <p class="text-[10px] text-[var(--color-foreground-secondary)]">Taux d'ajout au panier</p>
-          <p class="text-[15px] font-semibold text-[var(--color-primary)]">+340% vs standard</p>
+          <p class="text-[15px] font-semibold text-[var(--color-primary)]">Jusqu'à 10%</p>
         </div>
       </div>
     </div>
