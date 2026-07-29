@@ -13,9 +13,9 @@
     $etapes = [
       [
         'num' => '01',
-        'titre' => 'Accès à votre espace client',
-        'desc' => "Vous recevez un lien vers votre espace privé, avec un formulaire simple pour nous transmettre tout ce dont nous avons besoin pour démarrer.",
-        'chips' => ['E-mail de bienvenue', 'Espace personnel'],
+        'titre' => 'Accès à votre boutique',
+        'desc' => "Vous recevrez un processus complet expliqué étape par étape pour nous donner l’accès à votre boutique.",
+        'chips' => ['Accès à la boutique', 'Processus complet'],
         'rotate' => '-1.5deg',
       ],
       [
@@ -28,7 +28,7 @@
       [
         'num' => '03',
         'titre' => 'Livraison, prête à vendre',
-        'desc' => "Vous recevez tous les accès : design finalisé, structure complète, fiches produits, fournisseurs — votre boutique est opérationnelle dès réception.",
+        'desc' => "Vous recevez votre boutique prête à 100% : design finalisé, structure complète, fiches produits, fournisseurs — votre boutique est opérationnelle dès réception.",
         'chips' => ['Boutique Shopify', 'Prête à l\'emploi'],
         'rotate' => '-1deg',
       ],

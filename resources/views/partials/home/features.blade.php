@@ -94,8 +94,8 @@
             <h3 class="tracking-tight-body mt-2.5 text-[16.5px] font-semibold text-[var(--color-foreground)]">Sneaker Édition Limitée</h3>
 
             <div class="mt-1.5 flex items-baseline gap-2">
-              <span class="text-[19px] font-bold text-[var(--color-foreground)]">42 000 FCFA</span>
-              <span class="text-[13px] text-[var(--color-foreground-muted)] line-through">55 000 FCFA</span>
+              <span class="text-[19px] font-bold text-[var(--color-foreground)]">55 €</span>
+              <span class="text-[13px] text-[var(--color-foreground-muted)] line-through">80 €</span>
             </div>
 
             <p class="mt-2.5 flex items-center gap-1.5 text-[12px] font-medium text-[var(--color-primary)]">
