@@ -28,7 +28,7 @@
             'inclus' => [
               "Identité visuelle (logo, design…)",
               "Copywriting stratégique",
-              "Optimisation SEO et vitesse",
+              "Optimisation SEO et CRO",
               "Thème professionnel sous licence",
               "10 fiches produits optimisées",
               "2 cycles de révision",
@@ -43,6 +43,8 @@
             'inclus' => [
               "Identité visuelle sur mesure",
               "Copywriting stratégique avancé",
+              "Optimisation SEO et CRO",
+              "Thème professionnel sous licence",
               "Sections codées sur mesure",
               "Intégration outils IA (chatbot…)",
               "25 fiches produits optimisées",

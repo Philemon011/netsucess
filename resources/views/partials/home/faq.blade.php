@@ -29,10 +29,6 @@
             'reponse' => "Bien sûr. Vous choisissez le secteur et les produits qui vous parlent. Si vous hésitez, on peut vous orienter vers des niches porteuses selon votre marché.",
           ],
           [
-            'question' => "Comment je récupère ma boutique après une semaine ?",
-            'reponse' => "Dès que tout est prêt, vous recevez vos identifiants par e-mail, avec l'ensemble des accès nécessaires pour prendre la main immédiatement.",
-          ],
-          [
             'question' => "Est-ce que je garde le contrôle total du site ?",
             'reponse' => "Oui, entièrement. Une fois livrée, la boutique vous appartient à 100% — vous en avez le contrôle complet, sans dépendance envers nous.",
           ],
