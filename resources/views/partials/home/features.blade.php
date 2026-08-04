@@ -123,8 +123,8 @@
 
         {{-- Badge flottant — visible aussi sur mobile, repositionné --}}
 <div class="absolute -left-2 bottom-6 rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] px-3.5 py-2.5 shadow-[0_16px_40px_-15px_rgba(0,0,0,0.2)] sm:-left-4 sm:bottom-8 sm:px-4 sm:py-3" style="animation: float-soft 6s ease-in-out infinite;">
-  <p class="text-[9.5px] text-[var(--color-foreground-secondary)] sm:text-[10px]">Taux d'ajout au panier</p>
-  <p class="text-[13.5px] font-semibold text-[var(--color-primary)] sm:text-[15px]">+340% vs standard</p>
+  <p class="text-[9.5px] text-[var(--color-foreground-secondary)] sm:text-[10px]">Taux d’ajout au panier</p>
+  <p class="text-[13.5px] font-semibold text-[var(--color-primary)] sm:text-[15px]">Jusqu’à 10%</p>
 </div>
       </div>
     </div>
