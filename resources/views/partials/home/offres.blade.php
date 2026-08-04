@@ -21,9 +21,9 @@
       @php
         $formules = [
           [
-            'nom' => 'Essentielle',
+            'nom' => 'Pack Starter',
             'desc' => "Une boutique premium clé en main pour lancer votre marque e-commerce.",
-            'prix' => '450 000',
+            'prix' => '350',
             'featured' => false,
             'inclus' => [
               "Identité visuelle (logo, design…)",
@@ -35,9 +35,9 @@
             ],
           ],
           [
-            'nom' => 'Signature',
+            'nom' => 'Pack Premium',
             'desc' => "Pour une boutique premium, taillée sur mesure du début à la fin.",
-            'prix' => '850 000',
+            'prix' => '550',
             'featured' => true,
             'badge' => 'Recommandée',
             'inclus' => [
@@ -79,7 +79,7 @@
             <span class="font-display tracking-tight-hero text-[32px] font-semibold sm:text-[36px] {{ $f['featured'] ? 'text-white' : 'text-[var(--color-foreground)]' }}">
               {{ $f['prix'] }}
             </span>
-            <span class="text-[14px] {{ $f['featured'] ? 'text-white/50' : 'text-[var(--color-foreground-secondary)]' }}">FCFA</span>
+            <span class="text-[14px] {{ $f['featured'] ? 'text-white/50' : 'text-[var(--color-foreground-secondary)]' }}">€</span>
           </div>
 
           {{-- CTA --}}
