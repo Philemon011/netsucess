@@ -1,18 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
     <url>
-    <loc>http://localhost</loc>
+    <loc>http://127.0.0.1:8000</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
             </url>
     <url>
-    <loc>http://localhost/blog</loc>
+    <loc>http://127.0.0.1:8000/blog</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
             </url>
     <url>
-    <loc>http://localhost/blog/hfgnhgfdh</loc>
-    <lastmod>2026-05-04T09:01:14+00:00</lastmod>
+    <loc>http://127.0.0.1:8000/blog/lancer-boutique-e-commerce-rentable-2026</loc>
+    <lastmod>2026-07-17T16:22:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://127.0.0.1:8000/blog/meilleures-niches-dropshipping-2026</loc>
+    <lastmod>2026-07-17T16:22:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://127.0.0.1:8000/blog/meilleures-niches-drops-hipping-2026</loc>
+    <lastmod>2026-07-17T16:22:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://127.0.0.1:8000/blog/meilleures-niches-drops-hiping-2026</loc>
+    <lastmod>2026-07-17T16:22:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://127.0.0.1:8000/blog/meilleures-nichesdrops-hipping-2026</loc>
+    <lastmod>2026-07-17T16:22:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://127.0.0.1:8000/blog/meilleures-niches-drop-hipping-2026</loc>
+    <lastmod>2026-07-17T16:22:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://127.0.0.1:8000/blog/meilleures-niches-dropshping-2026</loc>
+    <lastmod>2026-07-17T16:22:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://127.0.0.1:8000/blog/meilleures-niches-drops-hipping-206</loc>
+    <lastmod>2026-07-17T16:22:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://127.0.0.1:8000/blog/meilleus-niches-drops-hipping-2026</loc>
+    <lastmod>2026-07-17T16:22:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://127.0.0.1:8000/blog/meilleures-niches-dr-hipping-2026</loc>
+    <lastmod>2026-07-17T16:22:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://127.0.0.1:8000/blog/creer-un-site-shopify</loc>
+    <lastmod>2026-08-28T09:32:35+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
             </url>
