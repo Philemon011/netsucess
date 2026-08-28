@@ -5,22 +5,24 @@
       Votre marque commence ici
     </div>
     <h2 class="reveal text-gradient-dark font-display tracking-tight-hero text-[32px] font-semibold leading-[1.12] sm:text-[44px]">
-      Voici les résultats obtenus par nos clients
+      Ils ont reçu leur boutique Voici leurs retours
     </h2>
   </div>
 
   @php
     $ligne1 = [
-      ['nom' => 'Wail', 'photo' => 'wail.jpg', 'texte' => "Plus de 20 000€ en 9 mois, en partant de zéro. Avec un site bien optimisé, tout a changé. Une vraie transformation."],
-      ['nom' => 'Arthur', 'photo' => 'arthur.jpg', 'texte' => "Il est super sincère et ne vend pas de rêve. Concernant le site et les stratégies, c'est plus que complet."],
-      ['nom' => 'Léa', 'photo' => 'lea.jpg', 'texte' => "Super contente du résultat ! Le site est magnifique et facile à utiliser. Premières ventes en moins d'une semaine."],
-      ['nom' => 'Maxime', 'photo' => 'maxime.jpg', 'texte' => "J'étais bloqué avec mon ancien site, aucune conversion. Dès les premiers jours, j'ai enfin vu des ventes tomber."],
+      ['nom' => 'ElisT', 'photo' => 'ElisT.jpg', 'texte' => "Très satisfait du travail de Netsucess ! Le site est moderne, clair et bien pensé. Ils ont été à l’écoute de mes besoins et réactifs à chaque demande. Travail sérieux, créatif et professionnel. Je recommande vivement Netsucess à toute personne qui souhaite un site de qualité."],
+      ['nom' => 'TBBC', 'photo' => 'TBBC.jpg', 'texte' => "Un rapport qualité-prix irréprochable ! Il a su écouter et comprendre le projet que je lui avais confié. Il n’a pas hésité à donner de son temps et à partager ses connaissances pour peaufiner le travail jusqu’à la dernière seconde. Je suis pleinement satisfait de son professionnalisme et de la qualité de son travail. Je recommande vivement"],
+      ['nom' => 'Sylvain', 'photo' => 'Sylvain.jpg', 'texte' => "Je suis satisfait de ma première expérience avec Netsucess. Ils ont pris le temps de comprendre mes besoins. Équipe professionnelle et réactive. Je n'hésiterai pas à repasser commande."],
+      ['nom' => 'AmeliaMartinsBarbo', 'photo' => 'AmeliaMartinsBarbo.jpg', 'texte' => "Une expérience parfaite. Un professionnel disponible, à l'écoute, arrangeant et rapide. C'était vraiment une expérience au top car il était disponible avant la commande: se mettre d'accord sur la commande, ce qui est le plus adapté (outre aspect financier), des appels récurrents selon mes disponibilités pour se tenir au courant. Et après commande: si il y a un problème envie d'une petite modification etc etc. Très poli, courtois et bienveillant. Je recommande fortement. Merci à vous pour cette belle rencontre !"],
+      ['nom' => 'MomoMoise', 'photo' => 'MomoMoise.png', 'texte' => "Un travail impeccable ! Je suis vraiment impressionné par le travail de Netsucess. Il a su créer un site professionnel et élégant qui reflète parfaitement le projet. Sa rigueur et son attention aux détails sont évidentes dans chaque aspect du projet. Netsucess est une personne passionnée, toujours à l'écoute de ses clients, et s'investit pleinement pour livrer un résultat de qualité. Je peux que la recommander pour son sérieux et son engagement dans son travail. Un grand merci pour ce superbe résultat !"],
     ];
     $ligne2 = [
-      ['nom' => 'Kenza', 'photo' => 'kenza.jpg', 'texte' => "Mon site est pro, facile à utiliser et mes clients l'adorent. Si vous cherchez quelqu'un de fiable, foncez."],
-      ['nom' => 'Dimitry', 'photo' => 'dimitry.jpg', 'texte' => "Merci pour le travail fourni ! Le site me convient parfaitement, livré rapidement et sans accroc."],
-      ['nom' => 'Julien', 'photo' => 'julien.jpg', 'texte' => "Plus que complet, rien à redire. Il sait exactement ce qu'il fait, du début à la fin du projet."],
-      ['nom' => 'Aïcha', 'photo' => 'aicha.jpg', 'texte' => "Un travail sérieux et rapide. Ma boutique a été livrée avant les délais annoncés, avec un design impeccable."],
+      ['nom' => 'Escapewine', 'photo' => 'escapewine.jpg', 'texte' => "Un travail professionnel de très très bonne qualité. Le site a été livré dans les délais avec toutes les modifications que j'ai demandées. Je recommande cette agence à 500%. Merci encore pour ce magnifique travail."],
+      ['nom' => 'Ketfreeman', 'photo' => 'Ketfreeman.jpg', 'texte' => "Excellent travail, toujours à l’écoute et toujours présent lorsqu’on a besoin. Pour ma première boutique, c’était un bon choix."],
+      ['nom' => 'Le Prestige', 'photo' => 'Le_Prestige.png', 'texte' => "Je suis vraiment satisfait du site e-commerce que Netsucess a conçu pour moi. Le design est à la fois moderne et élégant, très bien adapté à mes besoins avec toutes les fonctionnalités requises. Je recommande vivement leurs services pour tout projet web"],
+      ['nom' => 'GillesBarrue', 'photo' => 'GillesBarrue.png', 'texte' => "Travail de qualité, personne très réactive et en recherche permanente pour satisfaire le client tout au long du processus. Le résultat est parfait, je recommande ce prestataire."],
+      ['nom' => 'Lucie', 'photo' => 'Lucie.png', 'texte' => "Travail incroyable !!!!! Très actif , toujours disponible pour échanger vraiment je recommande à 2000 % ."],
     ];
     $ligne1Double = array_merge($ligne1, $ligne1);
     $ligne2Double = array_merge($ligne2, $ligne2);

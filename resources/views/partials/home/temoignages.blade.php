@@ -18,21 +18,21 @@
       @php
         $temoignages = [
           [
-            'nom' => 'Lucas',
-            'photo' => 'lucas.jpg',
-            'texte' => "Excellent résultat, le site me convient parfaitement, prêt à l'emploi et réalisé rapidement. Je recommande fortement !",
+            'nom' => 'ElisT',
+            'photo' => 'ElisT.jpg',
+            'texte' => "Très satisfait du travail de Netsucess ! Le site est moderne, clair et bien pensé. Ils ont été à l’écoute de mes besoins et réactifs à chaque demande. Travail sérieux, créatif et professionnel. Je recommande vivement Netsucess à toute personne qui souhaite un site de qualité.",
             'featured' => true,
           ],
           [
-            'nom' => 'Dimitry',
-            'photo' => 'dimitry.jpg',
-            'texte' => "Merci à l'équipe pour leur superbe travail. À l'écoute du client, très professionnel, je vous conseille les yeux fermés.",
+            'nom' => 'TBBC',
+            'photo' => 'TBBC.jpg',
+            'texte' => "Un rapport qualité-prix irréprochable ! Il a su écouter et comprendre le projet que je lui avais confié. Il n’a pas hésité à donner de son temps et à partager ses connaissances pour peaufiner le travail jusqu’à la dernière seconde. Je suis pleinement satisfait de son professionnalisme et de la qualité de son travail. Je recommande vivement !",
             'featured' => false,
           ],
           [
-            'nom' => 'Moussa',
-            'photo' => 'moussa.jpg',
-            'texte' => "Mon site est super qualitatif, les délais ont été respectés — même livré 1 jour en avance. Vous pouvez leur faire confiance.",
+            'nom' => 'Ketfreeman',
+            'photo' => 'Ketfreeman.jpg',
+            'texte' => "Excellent travail, toujours à l’écoute et toujours présent lorsqu’on a besoin. Pour ma première boutique, c’était un bon choix.",
             'featured' => false,
           ],
         ];

@@ -90,7 +90,7 @@
   </div>
 
   {{-- Marquee d'avis clients avec photos --}}
-  <div class="reveal mx-auto mt-16 max-w-6xl sm:mt-20">
+  {{-- <div class="reveal mx-auto mt-16 max-w-6xl sm:mt-20">
     <div class="marquee-fade overflow-hidden">
       <div class="hero-marquee flex w-max gap-4 px-2">
         @php
@@ -133,5 +133,5 @@
         @endforeach
       </div>
     </div>
-  </div>
+  </div> --}}
 </section>
